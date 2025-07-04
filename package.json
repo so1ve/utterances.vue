@@ -1,0 +1,66 @@
+{
+	"name": "utterances-vue",
+	"version": "0.0.0",
+	"packageManager": "pnpm@10.12.4",
+	"author": "Ray <i@mk1.io> (@so1ve)",
+	"description": "",
+	"keywords": [],
+	"homepage": "https://github.com/so1ve/utterances-vue#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/so1ve/utterances-vue.git"
+	},
+	"bugs": {
+		"url": "https://github.com/so1ve/utterances-vue/issues"
+	},
+	"license": "MIT",
+	"sideEffects": false,
+	"exports": {
+		".": {
+			"require": "./dist/index.js",
+			"import": "./dist/index.mjs"
+		}
+	},
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
+	"files": [
+		"dist"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"build": "tsdown",
+		"lint": "eslint . && prettier . --check",
+		"lint:fix": "eslint . --fix && prettier . --write",
+		"play": "vite",
+		"prepublishOnly": "nr build",
+		"release": "bumpp --commit --push --tag && pnpm publish",
+		"start": "tsx src/index.ts",
+		"test": "vitest",
+		"typecheck": "vue-tsc --noEmit",
+		"watch": "tsdown --watch"
+	},
+	"devDependencies": {
+		"@antfu/ni": "^25.0.0",
+		"@so1ve/eslint-config": "^3.6.1",
+		"@so1ve/prettier-config": "^3.6.1",
+		"@types/node": "^24.0.10",
+		"@vitejs/plugin-vue": "^6.0.0",
+		"@vue/test-utils": "^2.4.6",
+		"bumpp": "^10.2.0",
+		"eslint": "^9.30.1",
+		"happy-dom": "^18.0.1",
+		"prettier": "^3.6.2",
+		"tsdown": "^0.12.9",
+		"tsx": "^4.20.3",
+		"typescript": "^5.8.3",
+		"vite": "^7.0.2",
+		"vitest": "^3.2.4",
+		"vue": "^3.5.17",
+		"vue-tsc": "^3.0.1"
+	},
+	"peerDependencies": {
+		"vue": "^3.0.0"
+	}
+}
