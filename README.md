@@ -14,10 +14,6 @@ $ pnpm add utterances-vue
 
 ## 🚀 Usage
 
-```ts
-
-```
-
 ```vue
 <script setup lang="ts">
 import { Utterances } from "utterances-vue";
@@ -32,6 +28,10 @@ import { Utterances } from "utterances-vue";
 	/>
 </template>
 ```
+
+## 📖 Props
+
+Check [source code](./src/Utterances.vue) for the full list of props.
 
 ## 📝 License
 
