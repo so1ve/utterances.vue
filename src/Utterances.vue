@@ -33,10 +33,10 @@ onMounted(() => {
 			"Both issueTerm and issueNumber are set. One of them will be ignored.",
 		);
 	}
-	if ("issueTerm" in props) {
+	if (props.issueTerm) {
 		script.setAttribute("issue-term", props.issueTerm);
 	}
-	if ("issueNumber" in props) {
+	if (props.issueNumber) {
 		script.setAttribute("issue-number", String(props.issueNumber));
 	}
 	if (props.label !== "") {

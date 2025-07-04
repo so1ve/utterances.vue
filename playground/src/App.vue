@@ -3,5 +3,5 @@ import { Utterances } from "../../src";
 </script>
 
 <template>
-	<Utterances repo="so1ve/utterances-vue" />
+	<Utterances repo="so1ve/utterances-vue-comments" />
 </template>

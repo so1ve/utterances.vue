@@ -4,5 +4,5 @@ import { defineConfig } from "vitest/config";
 export default defineConfig({
 	root: "./playground",
 	plugins: [Vue()],
-	test: {},
+	test: { root: process.cwd(), environment: "happy-dom" },
 });
