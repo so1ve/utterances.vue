@@ -3,8 +3,14 @@
 	"version": "0.1.0",
 	"packageManager": "pnpm@10.12.4",
 	"author": "Ray <i@mk1.io> (@so1ve)",
-	"description": "",
-	"keywords": [],
+	"description": "Typed Vue 3 component for Utterances, a lightweight comments widget built on GitHub issues.",
+	"keywords": [
+		"comment",
+		"comments",
+		"utterances",
+		"vue",
+		"vue3"
+	],
 	"homepage": "https://github.com/so1ve/utterances.vue#readme",
 	"repository": {
 		"type": "git",
