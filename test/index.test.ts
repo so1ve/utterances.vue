@@ -6,14 +6,14 @@ import { Utterances } from "../src";
 test("utterances", () => {
 	const app = mount(Utterances, {
 		props: {
-			repo: "so1ve/utterances-vue-comments",
+			repo: "so1ve/utterances.vue-comments",
 		},
 	});
 
 	expect(app.text()).toMatchInlineSnapshot(`""`);
 	expect(app.html()).toMatchInlineSnapshot(`
 		"<div>
-		  <script async="" src="https://utteranc.es/client.js" repo="so1ve/utterances-vue-comments" issue-term="pathname" theme="github-light" crossorigin="anonymous"></script>
+		  <script async="" src="https://utteranc.es/client.js" repo="so1ve/utterances.vue-comments" issue-term="pathname" theme="github-light" crossorigin="anonymous"></script>
 		</div>"
 	`);
 });

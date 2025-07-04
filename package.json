@@ -1,17 +1,17 @@
 {
-	"name": "utterances-vue",
+	"name": "utterances.vue",
 	"version": "0.1.0",
 	"packageManager": "pnpm@10.12.4",
 	"author": "Ray <i@mk1.io> (@so1ve)",
 	"description": "",
 	"keywords": [],
-	"homepage": "https://github.com/so1ve/utterances-vue#readme",
+	"homepage": "https://github.com/so1ve/utterances.vue#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/so1ve/utterances-vue.git"
+		"url": "git+https://github.com/so1ve/utterances.vue.git"
 	},
 	"bugs": {
-		"url": "https://github.com/so1ve/utterances-vue/issues"
+		"url": "https://github.com/so1ve/utterances.vue/issues"
 	},
 	"license": "MIT",
 	"sideEffects": false,
