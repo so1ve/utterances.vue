@@ -1,6 +1,6 @@
 {
 	"name": "utterances-vue",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"packageManager": "pnpm@10.12.4",
 	"author": "Ray <i@mk1.io> (@so1ve)",
 	"description": "",
